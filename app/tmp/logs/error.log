@@ -1,0 +1,56 @@
+2015-02-26 11:00:53 Error: [MissingControllerException] Controller class W3frontimage.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'W3frontimage.pngController',
+  'plugin' => NULL,
+)
+Request URL: /dm/w3frontimage.png
+Stack Trace:
+#0 /var/www/dm/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-26 11:01:22 Error: [MissingControllerException] Controller class W3frontimage.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'W3frontimage.pngController',
+  'plugin' => NULL,
+)
+Request URL: /dm/w3frontimage.png
+Stack Trace:
+#0 /var/www/dm/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-26 12:16:48 Error: [MissingControllerException] Controller class Navbar-fixed-top.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Navbar-fixed-top.cssController',
+  'plugin' => NULL,
+)
+Request URL: /dm/navbar-fixed-top.css
+Stack Trace:
+#0 /var/www/dm/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-26 12:16:48 Error: [MissingControllerException] Controller class Navbar-fixed-top.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Navbar-fixed-top.cssController',
+  'plugin' => NULL,
+)
+Request URL: /dm/navbar-fixed-top.css
+Stack Trace:
+#0 /var/www/dm/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-26 16:47:35 Error: Fatal Error (1): Call to undefined method View::webroot() in [/var/www/dm/app/View/Layouts/default.ctp, line 62]
+2015-02-26 16:47:35 Error: [FatalErrorException] Call to undefined method View::webroot()
+Request URL: /dm/
+Stack Trace:
+#0 /var/www/dm/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/dm/app...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/dm/app...', 62, Array)
+#2 /var/www/dm/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/dm/app...', 62, Array)
+#3 /var/www/dm/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-26 16:48:09 Error: Fatal Error (1): Call to undefined method View::webroot() in [/var/www/dm/app/View/Layouts/default.ctp, line 62]
+2015-02-26 16:48:09 Error: [FatalErrorException] Call to undefined method View::webroot()
+Request URL: /dm/?sitesearch=&as_q=fgdg&cof=FORID%3A11&ie=ISO-8859-1
+Stack Trace:
+#0 /var/www/dm/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/dm/app...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/dm/app...', 62, Array)
+#2 /var/www/dm/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/dm/app...', 62, Array)
+#3 /var/www/dm/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
